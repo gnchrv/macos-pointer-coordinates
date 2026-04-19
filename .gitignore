@@ -1,0 +1,8 @@
+# Build output
+PointerCoordinates.app/
+
+# macOS
+.DS_Store
+
+# Claude Code
+.claude/
