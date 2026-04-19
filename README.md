@@ -6,6 +6,10 @@
 ![Swift](https://img.shields.io/badge/Swift-5.9-F05138?logo=swift&logoColor=white)
 ![License](https://img.shields.io/github/license/gnchrv/macos-pointer-coordinates)
 
+![](https://github.com/user-attachments/assets/f98dd6e3-cd12-495f-bebd-d0fc6e2404a1)
+
+>An example of the app launched and stopped via a Raycast script using the [toggle command](#toggle) below
+
 A compact pill label follows the cursor in real time, sitting just to its right and below the tip. Coordinates use a top-left origin — matching the native macOS screenshot tool — with monospaced digits so the label width stays stable as values change. The overlay is click-through, appears on all Spaces, and adapts to Light and Dark Mode automatically.
 
 ## Usage
