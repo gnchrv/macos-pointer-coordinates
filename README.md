@@ -2,6 +2,10 @@
 
 > A lightweight macOS menu bar app that displays the current cursor position as a floating label next to the pointer, updated in real time at around 60 FPS.
 
+![macOS](https://img.shields.io/badge/macOS-13%2B-black?logo=apple&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-5.9-F05138?logo=swift&logoColor=white)
+![License](https://img.shields.io/github/license/gnchrv/macos-pointer-coordinates)
+
 ![Preview](preview.png)
 
 A compact pill label follows the cursor in real time, sitting just to its right and below the tip. Coordinates use a top-left origin — matching the native macOS screenshot tool — with monospaced digits so the label width stays stable as values change. The overlay is click-through, appears on all Spaces, and adapts to Light and Dark Mode automatically.
@@ -47,3 +51,7 @@ else
     open /path/to/PointerCoordinates.app
 fi
 ```
+
+## License
+
+[MIT](LICENSE)
