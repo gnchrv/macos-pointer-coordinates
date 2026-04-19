@@ -1,12 +1,12 @@
 # Pointer Coordinates
 
-A lightweight macOS menu bar app that displays the current cursor position as a floating label next to the pointer. Coordinates match those shown by the native macOS screenshot tool — origin at the top-left corner of the main screen.
+A lightweight macOS menu bar app that displays the current cursor position as a floating label next to the pointer, updated in real time at around 60 FPS.
 
-The label adapts to light and dark mode and stays visible on any background via a blurred, translucent pill.
+A compact pill label follows the cursor in real time, sitting just to its right and below the tip. Coordinates use a top-left origin — matching the native macOS screenshot tool — with monospaced digits so the label width stays stable as values change. The overlay is click-through, appears on all Spaces, and adapts to Light and Dark Mode automatically.
 
 ## Usage
 
-The app lives in the menu bar. Click the icon to quit.
+The app lives in the menu bar. Click the icon to open the menu, then choose **Quit** to exit.
 
 ## Command Line
 
